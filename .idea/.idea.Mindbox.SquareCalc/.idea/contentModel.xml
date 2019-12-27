@@ -4,7 +4,12 @@
     <e p="C:\projects\drafts\testapp\Mindbox.SquareCalc" t="IncludeFlat">
       <e p="Mindbox.SquareCalc" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Class1.cs" t="Include" />
+        <e p="CalcStrategies.cs" t="Include" />
+        <e p="Exceptions" t="Include">
+          <e p="BadShapeParameterException.cs" t="Include" />
+          <e p="ShapeNotSupportedException.cs" t="Include" />
+        </e>
+        <e p="IShapeSquareCalcStrategy.cs" t="Include" />
         <e p="Mindbox.SquareCalc.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -12,6 +17,17 @@
               <e p="Mindbox.SquareCalc.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="Shape.cs" t="Include" />
+        <e p="Shapes" t="Include">
+          <e p="Circle.cs" t="Include" />
+          <e p="Triangle.cs" t="Include" />
+          <e p="TriangleExt.cs" t="Include" />
+        </e>
+        <e p="ShapeSquareCalculator.cs" t="Include" />
+        <e p="Strategies" t="Include">
+          <e p="CircleSquareCalcStrategy.cs" t="Include" />
+          <e p="TriangleSquareCalcStrategy.cs" t="Include" />
         </e>
       </e>
       <e p="Mindbox.SquareCalc.sln" t="IncludeFlat" />
@@ -25,7 +41,8 @@
             </e>
           </e>
         </e>
-        <e p="UnitTest1.cs" t="Include" />
+        <e p="ShapeSquareCalculatorTests.cs" t="Include" />
+        <e p="ShapeTests.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
